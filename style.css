@@ -7,7 +7,9 @@
 
 /* Apply some basic styles to the entire document */
 body {
-    font-family: Arial, sans-serif;
+    /*font-family: 'Prata', serif;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-family: Arial, sans-serif;*/
     background-color: #f0f0f0;
     color: #333;
 }
@@ -60,6 +62,11 @@ body{
     margin-left: 30px;
 }
 .details .NameSpan{
+    color: red;
+}
+.gitUrl a{
+    font-size: 20px;
+    margin-bottom: 15px;
     color: red;
 }
 footer{
