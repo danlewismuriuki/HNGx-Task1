@@ -44,25 +44,37 @@ p {
 .profile{
     width:300px;
     height: auto;
-    border: 2px solid #007bff;
+    border: 5px solid #007bff;
     border-radius: 5px;
 }
 
 body{
-    background-color: #36454f;
+    /*background-color: #36454f;*/
+    background-color: rgb(197, 201, 204) 201 204;
 }
 #card{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
+    background-color: #36454f;
 }
 .details{
     /*border: 2px solid #007bff;*/
     margin-left: 30px;
+    background-color: #36454f;
 }
 .details .NameSpan{
-    color: yellowgreen;
+    color: yellow;
+    font-size: larger;
+    font-weight: bold;
+}
+.dtls-flex{
+    display: flex;
+}
+.space-left{
+    margin-left: 20px;
+    color: yellow;
 }
 
 .gitUrl a{

@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto:ital,wght@0,400;0,700;1,400;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- Add any additional meta tags, CSS links, or scripts here -->
 </head>
 <body>
 <section id="card">
@@ -16,13 +15,27 @@
         <img src="Img-Dan1.jpg" class = "profile" data-testid="slackDisplayImage" alt="Lewis Dan">
     </div>
     <div class="details">
-        <h1>SlackName:<span class="NameSpan">Lewis Dan<span></h1>
-       
-        <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek">Current Day Of The Week:;</p>
-        <p data-testid="currentUTCTime" id="currentUTCTime">Current UTC Time:;</P>
-        <P data-testid="myTrack" id="myTrack">Track: FrontEnd;</p>
 
-        <!--<P Attirbute: data-testid=“githubURL”Track:;>GitHub Url</p>-->
+        <div class="dtls-flex">
+            <p>SlackName :  </p>
+            <p class="space-left"><span class="NameSpan">  Lewis Dan</span></p>
+        </div>
+
+        <div class="dtls-flex">
+           <p>CurrentDayOfTheWeek : </p>
+           <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek" class="space-left">Current Day Of The Week:;</p>
+        </div>
+
+        <div class="dtls-flex">
+            <p>currentUTCTime(MilliSeconds) :</p>
+            <p data-testid="currentUTCTime" id="currentUTCTime" class="space-left">Current UTC Time:;</P>
+        </div>
+
+        <div class="dtls-flex">
+            <p>MyTrack :</p>
+            <P data-testid="myTrack" id="myTrack" class="space-left">FrontEnd</p>
+        </div>
+
         <div class="gitUrl">
         <a href="https://github.com/danlewismuriuki/HNGx-Task1" Attirbute: data-testid=“githubURL”Track target="_blank">Click here to go to GitHub</a>
         </div>
