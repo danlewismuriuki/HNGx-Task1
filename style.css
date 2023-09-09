@@ -62,12 +62,13 @@ body{
     margin-left: 30px;
 }
 .details .NameSpan{
-    color: red;
+    color: yellowgreen;
 }
+
 .gitUrl a{
     font-size: 20px;
     margin-bottom: 15px;
-    color: red;
+    color: blue;
 }
 footer{
     position: absolute;
