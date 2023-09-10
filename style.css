@@ -60,7 +60,6 @@ body{
     background-color: #36454f;
 }
 .details{
-    /*border: 2px solid #007bff;*/
     margin-left: 30px;
     background-color: #36454f;
 }
@@ -86,3 +85,46 @@ footer{
     position: absolute;
 }
 
+@media (max-width: 477px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #36454f;
+    }
+    #card {
+        display: block;
+        height: 30px;
+        /*background-color: #36454f;*/
+    }
+    .profile {
+        width: 50%;
+        height: auto;
+        border: 3px solid #007bff;
+        border-radius: 3px;
+        margin-top: 50px;
+        margin-left: 80px;
+
+    }
+    .details {
+        margin-top: 30px;
+        margin-left: 80px;
+        background-color: #36454f;
+        width: 150px;
+        height: auto;
+
+    }
+    details .dtls-flex p {
+        display: flex;
+        font-size: 5px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .gitUrl a{
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: blue;
+    }
+    
+}
